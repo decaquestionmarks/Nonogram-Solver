@@ -17,7 +17,7 @@ class Hint {
         size_t &operator[](size_t i);
         const size_t &operator[](size_t i) const;
 
-        const std::vector<int> &getAll() const;
+        const std::vector<size_t> &getAll() const;
 };
 
 #endif
